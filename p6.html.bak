@@ -1,0 +1,19 @@
+<html>
+<head>
+
+</head>
+<body>
+ <span> click the button and get the gift</span>
+  <form>
+    <input type="button" onclick="demo(25,2)" value="click me"/>
+  </form>
+ 
+</body>
+<script type="text/javascript">
+  /*Function Parameters*/
+     function demo(num1,num2){
+	   document.write("Sum of Two Numbers =" + num1+num2);
+	   
+	 }
+  </script>
+<html>

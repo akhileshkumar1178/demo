@@ -1,0 +1,22 @@
+<html>
+<head>
+
+</head>
+<body>
+ <span> click the button and get the gift</span>
+  <form>
+    <input type="button" onclick="demo()" value="click me"/>
+  </form>
+ 
+</body>
+<script type="text/javascript">
+  /*Constructor Function*/
+     var Add=new Function("num1","num2","return num1*num2");
+	 
+	 function demo(){
+	 var result;
+	 result= Add(25,25);
+	 document.write("By Using Constructor Function : " + result);
+	 }
+  </script>
+<html>

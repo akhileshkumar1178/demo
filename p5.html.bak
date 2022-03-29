@@ -1,0 +1,19 @@
+<html>
+<head>
+
+</head>
+<body>
+ <span> click the button and get the gift</span>
+  <form>
+    <input type="button" onclick="demo()" value="click me"/>
+  </form>
+ 
+</body>
+<script type="text/javascript">
+  /*Normal Function*/
+     function demo(){
+	   document.write("Thanks for Clicked me!!");
+	   document.write("Opps!! Sorry no here gift");
+	 }
+  </script>
+<html>

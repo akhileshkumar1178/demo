@@ -1,0 +1,14 @@
+<html>
+<head>
+
+</head>
+<body>
+
+</body>
+  <script type="text/javascript">
+    var arr1=["Apple","Banana","Graps","Potato","Tomato","Banana"];
+	alert(arr1.lastIndexOf("Banana")); //retun 5
+	//alert(arr1.indexOf("banana")); //retun -1
+	//alert(arr1.indexOf("Apple")); //retun 0
+  </script>
+<html>

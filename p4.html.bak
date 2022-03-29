@@ -1,0 +1,16 @@
+<html>
+<head>
+
+</head>
+<body>
+  <script type="text/javascript">
+  /*Using for loop*/
+     var num,n2=2,res=0;
+	  for(num=1;num<=10;num++){
+	  res=num*n2;
+	    document.write("n2 * num =" + res +"<br/>");
+		
+	  }
+  </script>
+</body>
+<html>

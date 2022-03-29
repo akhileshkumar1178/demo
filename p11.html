@@ -1,0 +1,33 @@
+<html>
+<head>
+
+</head>
+<body>
+  
+</body>
+<script type="text/javascript">
+  /*Object*/
+  var obj={
+  fname: 'Akhilesh',
+  lname: 'Kumar',
+  Age: 20,
+  email: 'er.akhil.org@gmail.com',
+  arr: ["Apple","Graps","Banana"],
+  Salary: function(){
+     return 20000;
+  },
+  fullname: function(){
+     return this.fname + " " + this.lname  //this keyword used for object like obj.fname == this.fname
+  },
+  living : {          //inner object
+     City : 'Lucknow',
+	 Country : 'India'
+  }
+  }
+  //document.write(obj.fname);
+  //document.write(obj.arr);
+  //document.write(obj.Salary());
+  //document.write(obj.fullname());
+  document.write(obj.living.City);
+  </script>
+</html>
